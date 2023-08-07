@@ -24,6 +24,7 @@ export default function SearchResultPage({params}) {
         key={movie.id} 
         id={movie.id}
         title={movie.title}
+        detail={movie.detail}
         rating={movie.rating}
         number={index + 1}
         />
